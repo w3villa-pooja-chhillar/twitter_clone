@@ -21,6 +21,17 @@ gem "importmap-rails"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
+
+
+gem 'better_errors', '~> 2.10', '>= 2.10.1'
+gem 'guard', '~> 2.18'
+gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+gem 'pry', '~> 0.13.1'
+gem 'bulma-rails', '~> 0.9.4'
+gem 'simple_form', '~> 5.2'
+gem 'gravatar_image_tag', '~> 1.2'
+gem 'devise', '~> 4.9', '>= 4.9.2'
+
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
